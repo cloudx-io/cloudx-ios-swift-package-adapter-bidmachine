@@ -8,7 +8,7 @@
 @implementation CloudXBidMachineAdapterObjCTests
 
 - (void)testFrameworkIsLinked {
-    XCTAssertEqualObjects(CLXBidMachineAdapterVersion, @"3.8.2.0");
+    XCTAssertEqualObjects(CLXBidMachineAdapterVersion, @"4.0.0.0");
     XCTAssertNotNil(NSClassFromString(@"CLXBidMachineInitializer"));
 }
 

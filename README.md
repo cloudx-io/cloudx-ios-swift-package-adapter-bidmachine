@@ -4,7 +4,7 @@ This repository distributes the BidMachine adapter for the CloudX iOS SDK.
 
 ## Requirements
 
-- iOS 13 or later
+- iOS 15 or later
 - Xcode 16 or later
 - CloudX Core 3.11.0 or later
 
@@ -24,6 +24,7 @@ flag to retain the CloudX registration code.
 
 | Package version | CloudX adapter | BidMachine SDK |
 | --- | --- | --- |
+| `4000000.0.0` | `4.0.0.0` | `4.0.0` |
 | `3080200.0.0` | `3.8.2.0` | `3.8.2` |
 
 The package installs CloudX Core and BidMachine SDK as dependencies. Import `CloudXCore` in the application. The adapter registers when the application loads.
