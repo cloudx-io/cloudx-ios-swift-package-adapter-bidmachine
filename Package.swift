@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "CloudXBidMachineAdapter",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v15),
     ],
     products: [
         .library(
@@ -20,14 +20,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/bidmachine/BidMachine-SPM.git",
-            exact: "3.8.2"
+            exact: "4.0.0"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "CloudXBidMachineAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-bidmachine/releases/download/binary/3080200.0.0/CloudXBidMachineAdapter.xcframework.zip",
-            checksum: "484d97c96b1a307fd119d3e0177fffad3a86762c4bbc8410ce5c07ee19153525"
+            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-bidmachine/releases/download/binary/4000000.0.0/CloudXBidMachineAdapter.xcframework.zip",
+            checksum: "25d8e6462c7f27f9cbeb344a01b56670929390a8972abee29e4d7c84408d4772"
         ),
         .target(
             name: "CloudXBidMachineAdapterPackage",

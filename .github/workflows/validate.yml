@@ -38,6 +38,6 @@ jobs:
       - name: Verify artifact checksum
         run: |
           curl --fail --location --output /tmp/CloudXBidMachineAdapter.xcframework.zip \
-            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-bidmachine/releases/download/binary/3080200.0.0/CloudXBidMachineAdapter.xcframework.zip
+            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-bidmachine/releases/download/binary/4000000.0.0/CloudXBidMachineAdapter.xcframework.zip
           test "$(swift package compute-checksum /tmp/CloudXBidMachineAdapter.xcframework.zip)" = \
-            "484d97c96b1a307fd119d3e0177fffad3a86762c4bbc8410ce5c07ee19153525"
+            "25d8e6462c7f27f9cbeb344a01b56670929390a8972abee29e4d7c84408d4772"

@@ -4,7 +4,7 @@ import XCTest
 
 final class CloudXBidMachineAdapterSwiftTests: XCTestCase {
     func testFrameworkIsLinked() {
-        XCTAssertEqual(CLXBidMachineAdapterVersion, "3.8.2.0")
+        XCTAssertEqual(CLXBidMachineAdapterVersion, "4.0.0.0")
         XCTAssertNotNil(NSClassFromString("CLXBidMachineInitializer"))
     }
 }
